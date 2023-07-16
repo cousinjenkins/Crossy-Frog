@@ -1,0 +1,30 @@
+body {
+    background-color: lightgreen
+}
+
+.heading {
+    font-size: 150px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.heading {
+    margin-top: 0;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.legend-button {
+    margin-top: auto;
+}

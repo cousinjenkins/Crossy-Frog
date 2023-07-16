@@ -1,0 +1,75 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    background-color: lightgreen  
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+h3 {
+    text-align: center;
+}
+
+.grid {
+    border: 10px solid #FFF5EE;
+    height: 540px;
+    width: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.grid div {
+    height: 60px;
+    width: 60px;
+}
+
+.ending-block {
+    background-color: lightcoral;
+}
+
+.starting-block {
+    background-color: lightblue;
+}
+
+.l1 {
+    background-color: burlywood;
+}
+
+.l2 {
+    background-color: burlywood;
+}
+
+.l3 {
+    background-color: burlywood;
+}
+
+.l4 {
+    background-color: cyan;
+}
+
+.l5 {
+    background-color: cyan;
+}
+
+.c1 {
+    background-color: lightgoldenrodyellow;
+}
+
+.c2 {
+    background-color: lightgrey;
+}
+.c3 {
+    background-color: lightgrey;
+}
+
+.frog {
+    background-color: green;
+}
